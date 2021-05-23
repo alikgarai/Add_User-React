@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AddUser from "./components/Users/AddUser";
 import UsersList from "./components/Users/UsersList";
-import Wrapper from "./components/UI/Wrapper";
+import Wrapper from "./components/Helpers/Wrapper";
 
 function App() {
   const [usersList, setUsersList] = useState([]);
